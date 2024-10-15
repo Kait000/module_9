@@ -4,7 +4,6 @@ from random import choice
 class MysticBall:
     def __init__(self, *ls):
         self.words = ls
-        print(ls)
 
     def __call__(self):
         return choice(self.words)
